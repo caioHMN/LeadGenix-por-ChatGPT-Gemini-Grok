@@ -3,7 +3,7 @@
 ## Portfólio para Apresentação de Startup
 
 **Data:** 05 de Agosto de 2025  
-**Contato:** contato@leadgenix.com | [https://leadgenix.com](https://leadgenix.com)
+**Contato:** contato@*****.com | [https://*******.com](https://*******.com)
 
 ---
 

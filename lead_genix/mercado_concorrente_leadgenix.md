@@ -66,5 +66,5 @@ Este documento pode ser atualizado periodicamente conforme o crescimento da star
 
 **Atualizado em:** 05 de Agosto de 2025
 
-**Contato:** contato@leadgenix.com | [https://leadgenix.com](https://leadgenix.com)
+**Contato:** contato@******.com | [https://******.com](https://******.com)
 

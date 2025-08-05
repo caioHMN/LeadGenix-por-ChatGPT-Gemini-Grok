@@ -1,5 +1,5 @@
 Faisca:
-vamos criar um estrategia em parceria com Gemini & cahtGPT & Grok, eles vão ter outro ponto de vista: Criar um plataforma app, com seguinte principios:
+vamos criar uma estrategia em parceria com Gemini & cahtGPT & Grok, eles vão ter outro ponto de vista: Criar um plataforma app, com seguinte principios:
 1. idea principal, facilitar vendedor a achar clientes em potencial.
 2. usar banco de dados se abertos ou disponiveis de agencia de enprego em www para encontrar clientes.
 3. usar banco de dados se abertos ou disponiveis de fornecedores de produto em www.

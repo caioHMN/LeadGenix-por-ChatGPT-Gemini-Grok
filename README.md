@@ -1,3 +1,5 @@
+contato: caiohomem@hotmail.com / caiohomemm@gmai.com
+
 LeadGenix: A Strategy for Building a Lead Generation Platform with Gemini, ChatGPT, and Grok
 Introduction
 LeadGenix is an innovative platform designed to streamline the process of connecting vendors with potential clients by leveraging open data sources and advanced filtering techniques. This article outlines the strategy, infrastructure, software architecture, and programming languages aligned with the development of LeadGenix, a collaborative project envisioned with insights from AI models Gemini, ChatGPT, and Grok.

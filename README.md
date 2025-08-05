@@ -1,4 +1,4 @@
-contato: caiohomem@hotmail.com / caiohomemm@gmai.com
+contato: caiohomem@hotmail.com / caiohomemm@gmail.com
 
 LeadGenix: A Strategy for Building a Lead Generation Platform with Gemini, ChatGPT, and Grok
 Introduction

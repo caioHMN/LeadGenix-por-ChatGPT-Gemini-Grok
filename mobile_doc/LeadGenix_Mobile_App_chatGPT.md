@@ -1,8 +1,8 @@
-# Documentação do Aplicativo Móvel LeadGenix (Android)
+# Documentação do Aplicativo Móvel LeadIAgenix (Android)
 
 ## 📝 Visão Geral
 
-O aplicativo móvel LeadGenix para Android oferece aos vendedores B2B acesso direto à plataforma de inteligência de mercado, com foco em simplicidade, segurança e experiência fluida. O app utiliza um **WebView** para carregar a interface web (React/Next.js), mas implementa **autenticação nativa** para garantir integração transparente com o backend.
+O aplicativo móvel LeadIAgenix para Android oferece aos vendedores B2B acesso direto à plataforma de inteligência de mercado, com foco em simplicidade, segurança e experiência fluida. O app utiliza um **WebView** para carregar a interface web (React/Next.js), mas implementa **autenticação nativa** para garantir integração transparente com o backend.
 
 ---
 
@@ -19,7 +19,7 @@ O aplicativo móvel LeadGenix para Android oferece aos vendedores B2B acesso dir
 
 ### Arquitetura
 
-- **WebView:** Carrega a URL principal (`https://app.leadgenix.com`), permitindo acesso ao painel de leads, filtros e relatórios.
+- **WebView:** Carrega a URL principal (`https://app.LeadIAgenix.com`), permitindo acesso ao painel de leads, filtros e relatórios.
 - **Autenticação Nativa:** Integração com Firebase Authentication para login, armazenamento seguro de token JWT.
 - **Navegação:** Atividade principal (`MainActivity`) exibe WebView, com barra de navegação opcional.
 - **Cache:** Token armazenado localmente (SharedPreferences ou Android Keystore) para persistência da sessão.
@@ -27,11 +27,11 @@ O aplicativo móvel LeadGenix para Android oferece aos vendedores B2B acesso dir
 ### Estrutura de Projeto Sugerida
 
 ```
-leadgenix-mobile-android/
+LeadIAgenix-mobile-android/
 ├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/com/leadgenix/mobile/
+│   │   │   ├── java/com/LeadIAgenix/mobile/
 │   │   │   │   ├── MainActivity.java
 │   │   │   │   └── utils/
 │   │   │   │       └── AuthManager.java
@@ -119,7 +119,7 @@ class MainActivity : AppCompatActivity() {
         webView.settings.javaScriptEnabled = true
         auth.currentUser?.getIdToken(false)?.addOnSuccessListener { result ->
             val token = result.token
-            webView.loadUrl("https://app.leadgenix.com?token=$token")
+            webView.loadUrl("https://app.LeadIAgenix.com?token=$token")
         }
     }
 }
@@ -160,7 +160,7 @@ O projeto está sob a [MIT License](LICENSE).
 
 ## 📅 Próximos Passos
 
-1. Criar repositório `leadgenix-mobile-android` no GitHub.
+1. Criar repositório `LeadIAgenix-mobile-android` no GitHub.
 2. Configurar Firebase Authentication e integração backend.
 3. Prototipar tela de login nativa e fluxo WebView.
 4. Testar autenticação e navegação com ambiente de staging.
@@ -168,4 +168,4 @@ O projeto está sob a [MIT License](LICENSE).
 
 ---
 
-**LeadGenix Mobile App — Documentação oficial para MVP | 2025**
+**LeadIAgenix Mobile App — Documentação oficial para MVP | 2025**

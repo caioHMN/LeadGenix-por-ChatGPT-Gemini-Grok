@@ -1,7 +1,7 @@
-# Documentação do Aplicativo Móvel LeadGenix (Android)
+# Documentação do Aplicativo Móvel LeadIAgenix (Android)
 
 ## Visão Geral
-O aplicativo móvel LeadGenix para Android é uma interface leve que permite aos usuários (vendedores B2B) acessar a plataforma de inteligência de mercado diretamente de seus dispositivos móveis. Para manter a simplicidade, o app utiliza um **WebView** para carregar a interface web da plataforma (hospedada em React/Next.js), mas implementa **autenticação nativa** para oferecer uma experiência fluida e segura. O foco é replicar a funcionalidade do painel web (visualização de leads, filtros, notificações) com integração nativa para login e gerenciamento de sessões.
+O aplicativo móvel LeadIAgenix para Android é uma interface leve que permite aos usuários (vendedores B2B) acessar a plataforma de inteligência de mercado diretamente de seus dispositivos móveis. Para manter a simplicidade, o app utiliza um **WebView** para carregar a interface web da plataforma (hospedada em React/Next.js), mas implementa **autenticação nativa** para oferecer uma experiência fluida e segura. O foco é replicar a funcionalidade do painel web (visualização de leads, filtros, notificações) com integração nativa para login e gerenciamento de sessões.
 
 ## Objetivos
 - **Simplicidade**: Redirecionar para a interface web existente, minimizando o desenvolvimento nativo.
@@ -12,20 +12,20 @@ O aplicativo móvel LeadGenix para Android é uma interface leve que permite aos
 ## Estrutura do Aplicativo
 
 ### Arquitetura
-- **WebView**: Carrega a URL da plataforma LeadGenix (ex.: `https://app.leadgenix.com`) para exibir o painel de leads, filtros e relatórios.
+- **WebView**: Carrega a URL da plataforma LeadIAgenix (ex.: `https://app.LeadIAgenix.com`) para exibir o painel de leads, filtros e relatórios.
 - **Autenticação Nativa**: Integração com Firebase Authentication para login via e-mail/senha ou provedores sociais (ex.: Google).
 - **Navegação**: Interface com uma única atividade principal contendo o WebView e uma barra de navegação básica (opcional: botões de voltar, atualizar).
 - **Cache**: Armazenamento local de tokens de autenticação para manter a sessão do usuário.
 
 ### Estrutura do Projeto
-O projeto será hospedado em um repositório GitHub chamado `leadgenix-mobile-android` com a seguinte estrutura:
+O projeto será hospedado em um repositório GitHub chamado `LeadIAgenix-mobile-android` com a seguinte estrutura:
 
 ```
-leadgenix-mobile-android/
+LeadIAgenix-mobile-android/
 ├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/com/leadgenix/mobile/
+│   │   │   ├── java/com/LeadIAgenix/mobile/
 │   │   │   │   ├── MainActivity.java       # Atividade principal (WebView + Auth)
 │   │   │   │   └── utils/
 │   │   │   │       └── AuthManager.java    # Gerenciamento de autenticação
@@ -63,8 +63,8 @@ leadgenix-mobile-android/
 2. **Armazenamento do Token**:
    - O token é salvo localmente (ex.: SharedPreferences ou Room) para manter a sessão.
 3. **Carregamento do WebView**:
-   - Após o login, o WebView carrega a URL da plataforma (`https://app.leadgenix.com`) com o token JWT incluído no cabeçalho da requisição ou como parâmetro (ex.: `?token=JWT`).
-   - A API Gateway (`leadgenix-api`) valida o token e autoriza o acesso.
+   - Após o login, o WebView carrega a URL da plataforma (`https://app.LeadIAgenix.com`) com o token JWT incluído no cabeçalho da requisição ou como parâmetro (ex.: `?token=JWT`).
+   - A API Gateway (`LeadIAgenix-api`) valida o token e autoriza o acesso.
 4. **Manutenção da Sessão**:
    - O app verifica periodicamente a validade do token e renova se necessário.
    - Caso o token expire, o usuário é redirecionado para a tela de login.
@@ -74,7 +74,7 @@ leadgenix-mobile-android/
 ## Implementação Básica
 ### Exemplo de Código (Kotlin, MainActivity)
 ```kotlin
-package com.leadgenix.mobile
+package com.LeadIAgenix.mobile
 
 import android.os.Bundle
 import android.webkit.WebView
@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
         webView.webViewClient = WebViewClient()
         webView.settings.javaScriptEnabled = true
         val token = auth.currentUser?.getIdToken(false)?.result?.token
-        webView.loadUrl("https://app.leadgenix.com?token=$token")
+        webView.loadUrl("https://app.LeadIAgenix.com?token=$token")
     }
 }
 ```
@@ -150,7 +150,7 @@ class MainActivity : AppCompatActivity() {
 O aplicativo está licenciado sob a [MIT License](LICENSE), permitindo contribuições externas enquanto mantém flexibilidade para uso comercial.
 
 ## Próximos Passos
-1. Criar repositório `leadgenix-mobile-android` no GitHub.
+1. Criar repositório `LeadIAgenix-mobile-android` no GitHub.
 2. Configurar Firebase Authentication e integrar com a API Gateway.
 3. Prototipar tela de login nativa e WebView.
 4. Testar o fluxo de autenticação com um servidor de staging.

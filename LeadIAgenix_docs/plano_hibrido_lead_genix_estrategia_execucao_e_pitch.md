@@ -1,8 +1,8 @@
-# LeadGenix: Plataforma Inteligente de Leads B2B
+# LeadIAgenix: Plataforma Inteligente de Leads B2B
 
 ## 1. Manifesto Estratégico
 
-LeadGenix é uma plataforma inovadora criada para conectar vendedores a empresas em expansão. Utilizando dados públicos e inteligência de mercado, geramos oportunidades reais de negócios — muito além de simples listas de contatos. Nosso foco é identificar sinais de crescimento empresarial (como contratações), cruzar essas informações com dados de fornecedores e entregar leads qualificados de maneira automatizada e escalável.
+LeadIAgenix é uma plataforma inovadora criada para conectar vendedores a empresas em expansão. Utilizando dados públicos e inteligência de mercado, geramos oportunidades reais de negócios — muito além de simples listas de contatos. Nosso foco é identificar sinais de crescimento empresarial (como contratações), cruzar essas informações com dados de fornecedores e entregar leads qualificados de maneira automatizada e escalável.
 
 ---
 
@@ -10,7 +10,7 @@ LeadGenix é uma plataforma inovadora criada para conectar vendedores a empresas
 
 **Problema:** Fornecedores B2B têm dificuldade em encontrar empresas realmente propensas a comprar — as soluções atuais são estáticas, desatualizadas e pouco inteligentes.
 
-**Solução:** LeadGenix cruza fontes públicas (vagas de emprego, dados de CNPJ, portais de fornecedores) para identificar empresas em expansão e antecipar suas necessidades. A plataforma entrega esses leads para fornecedores de acordo com seu nicho, de forma segmentada e personalizada.
+**Solução:** LeadIAgenix cruza fontes públicas (vagas de emprego, dados de CNPJ, portais de fornecedores) para identificar empresas em expansão e antecipar suas necessidades. A plataforma entrega esses leads para fornecedores de acordo com seu nicho, de forma segmentada e personalizada.
 
 ---
 
@@ -64,8 +64,8 @@ LeadGenix é uma plataforma inovadora criada para conectar vendedores a empresas
 - **Dashboards:** PowerBI
 
 ### Organização do Repositório no GitHub
-- Múltiplos repositórios, um por microserviço (ex: leadgenix-scraper, leadgenix-api, leadgenix-frontend, etc.)
-- Documentação detalhada em leadgenix-core/docs
+- Múltiplos repositórios, um por microserviço (ex: LeadIAgenix-scraper, LeadIAgenix-api, LeadIAgenix-frontend, etc.)
+- Documentação detalhada em LeadIAgenix-core/docs
 - Fluxo de trabalho GitFlow (main, develop, feature, bugfix, release)
 - CI/CD automatizado via GitHub Actions
 - Testes automatizados (Pytest, Jest), cobertura mínima 80%
@@ -94,7 +94,7 @@ LeadGenix é uma plataforma inovadora criada para conectar vendedores a empresas
 
 **Visão Geral:** Plataforma de inteligência de mercado para leads B2B, conectando fornecedores a empresas em expansão. Missão de transformar dados públicos em oportunidades.
 
-**Problema/Solução:** Fornecedores não encontram empresas com demanda real. LeadGenix entrega leads qualificados usando sinais de expansão empresarial.
+**Problema/Solução:** Fornecedores não encontram empresas com demanda real. LeadIAgenix entrega leads qualificados usando sinais de expansão empresarial.
 
 **Mercado-Alvo:** Fornecedores B2B (TI, construção, limpeza, etc). Mercado global de leads B2B crescendo 14,5% ao ano.
 
@@ -104,7 +104,7 @@ LeadGenix é uma plataforma inovadora criada para conectar vendedores a empresas
 
 **Investimento:** Buscamos $500.000 para desenvolvimento, marketing e operação.
 
-**Conclusão:** LeadGenix é a ponte inteligente entre oferta e demanda B2B, pronta para revolucionar a geração de leads.
+**Conclusão:** LeadIAgenix é a ponte inteligente entre oferta e demanda B2B, pronta para revolucionar a geração de leads.
 
 ---
 

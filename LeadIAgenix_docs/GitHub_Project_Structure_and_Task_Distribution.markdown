@@ -1,25 +1,25 @@
-# Proposta para Estrutura de Projeto e Distribuição de Tarefas no GitHub para a LeadGenix
+# Proposta para Estrutura de Projeto e Distribuição de Tarefas no GitHub para a LeadIAgenix
 
-Esta proposta detalha a organização do repositório no GitHub, a estrutura do projeto, a distribuição de tarefas e sugestões para otimizar o desenvolvimento da plataforma LeadGenix, uma solução de inteligência de mercado para geração de leads B2B.
+Esta proposta detalha a organização do repositório no GitHub, a estrutura do projeto, a distribuição de tarefas e sugestões para otimizar o desenvolvimento da plataforma LeadIAgenix, uma solução de inteligência de mercado para geração de leads B2B.
 
 ## 1. Estrutura do Repositório no GitHub
 
 ### Estrutura de Repositórios
 Para suportar a arquitetura de microserviços e facilitar a colaboração, recomendamos a criação de múltiplos repositórios, cada um focado em uma parte específica do sistema. Isso melhora a modularidade e a escalabilidade.
 
-- **leadgenix-core**: Repositório principal para documentação, configuração geral e scripts de automação.
-- **leadgenix-scraper**: Microserviço para coleta de dados (scraping e APIs externas).
-- **leadgenix-processor**: Microserviço para processamento e enriquecimento de dados.
-- **leadgenix-match-engine**: Motor de cruzamento de dados (matching) para gerar leads qualificados.
-- **leadgenix-api**: API Gateway para comunicação com o frontend e integração com CRMs.
-- **leadgenix-frontend**: Interface do usuário (React/Next.js).
-- **leadgenix-auth-payment**: Microserviço para autenticação e pagamentos (integração com Stripe/Paypal).
+- **LeadIAgenix-core**: Repositório principal para documentação, configuração geral e scripts de automação.
+- **LeadIAgenix-scraper**: Microserviço para coleta de dados (scraping e APIs externas).
+- **LeadIAgenix-processor**: Microserviço para processamento e enriquecimento de dados.
+- **LeadIAgenix-match-engine**: Motor de cruzamento de dados (matching) para gerar leads qualificados.
+- **LeadIAgenix-api**: API Gateway para comunicação com o frontend e integração com CRMs.
+- **LeadIAgenix-frontend**: Interface do usuário (React/Next.js).
+- **LeadIAgenix-auth-payment**: Microserviço para autenticação e pagamentos (integração com Stripe/Paypal).
 
 ### Estrutura Interna de Cada Repositório
-Exemplo para o repositório `leadgenix-scraper`:
+Exemplo para o repositório `LeadIAgenix-scraper`:
 
 ```
-leadgenix-scraper/
+LeadIAgenix-scraper/
 ├── src/                    # Código-fonte
 │   ├── collectors/         # Scripts de coleta (ex.: agências de emprego, CNPJ)
 │   ├── utils/              # Funções utilitárias (ex.: limpeza de dados)
@@ -34,9 +34,9 @@ leadgenix-scraper/
 └── .gitignore              # Arquivos a ignorar
 ```
 
-### Estrutura Geral do Projeto `leadgenix-core`
+### Estrutura Geral do Projeto `LeadIAgenix-core`
 ```
-leadgenix-core/
+LeadIAgenix-core/
 ├── docs/                   # Documentação do projeto (arquitetura, fluxos)
 ├── scripts/                # Scripts de automação (ex.: deploy, setup)
 ├── .github/                # Configurações do GitHub
@@ -84,19 +84,19 @@ leadgenix-core/
 ### Exemplo de Distribuição de Tarefas (MVP, Meses 1-3)
 | Tarefa | Responsável | Repositório | Prioridade | Prazo |
 |--------|-------------|-------------|------------|-------|
-| Configurar infraestrutura cloud (AWS/GCP) | DevOps | leadgenix-core | Alta | Mês 1 |
-| Implementar scraper para agências de emprego | Backend (Scraper) | leadgenix-scraper | Alta | Mês 2 |
-| Desenvolver motor de cruzamento básico | Backend (Match Engine) | leadgenix-match-engine | Alta | Mês 3 |
-| Criar painel de leads com filtros | Frontend | leadgenix-frontend | Alta | Mês 3 |
-| Configurar integração com Stripe | Backend (Auth) | leadgenix-auth-payment | Média | Mês 4 |
-| Escrever documentação inicial | Todos | leadgenix-core | Média | Mês 1-2 |
+| Configurar infraestrutura cloud (AWS/GCP) | DevOps | LeadIAgenix-core | Alta | Mês 1 |
+| Implementar scraper para agências de emprego | Backend (Scraper) | LeadIAgenix-scraper | Alta | Mês 2 |
+| Desenvolver motor de cruzamento básico | Backend (Match Engine) | LeadIAgenix-match-engine | Alta | Mês 3 |
+| Criar painel de leads com filtros | Frontend | LeadIAgenix-frontend | Alta | Mês 3 |
+| Configurar integração com Stripe | Backend (Auth) | LeadIAgenix-auth-payment | Média | Mês 4 |
+| Escrever documentação inicial | Todos | LeadIAgenix-core | Média | Mês 1-2 |
 
 ## 3. Sugestões para Melhorar o Desenvolvimento
 
 ### 3.1. Automação e CI/CD
 - **Pipelines CI/CD**:
   - Configurar GitHub Actions para testes automatizados, linting e deploy.
-  - Exemplo para `leadgenix-scraper`:
+  - Exemplo para `LeadIAgenix-scraper`:
     ```yaml
     name: CI Scraper
     on:
@@ -133,8 +133,8 @@ leadgenix-core/
 
 ### 3.3. Documentação
 - **Código**: Documentar funções críticas com docstrings (Python) e JSDoc (JavaScript).
-- **API**: Usar Swagger/OpenAPI para documentar endpoints no `leadgenix-api`.
-- **Projeto**: Manter um `docs/` no `leadgenix-core` com arquitetura, fluxos e guias de setup.
+- **API**: Usar Swagger/OpenAPI para documentar endpoints no `LeadIAgenix-api`.
+- **Projeto**: Manter um `docs/` no `LeadIAgenix-core` com arquitetura, fluxos e guias de setup.
 
 ### 3.4. Otimização do Desenvolvimento
 - **Code Reviews Rápidos**: Limitar PRs a 400 linhas para facilitar revisões.
@@ -147,12 +147,12 @@ leadgenix-core/
   - Usar Docker/Kubernetes para gerenciar microserviços.
   - Configurar auto-scaling em AWS/GCP para picos de uso.
 - **Segurança**:
-  - Implementar autenticação com JWT no `leadgenix-auth-payment`.
+  - Implementar autenticação com JWT no `LeadIAgenix-auth-payment`.
   - Garantir conformidade com LGPD para dados coletados (ex.: CNPJ, vagas).
   - Usar HTTPS e criptografia para dados sensíveis.
 
 ## 4. Próximos Passos
-1. Criar repositórios no GitHub e configurar `leadgenix-core` com documentação inicial.
+1. Criar repositórios no GitHub e configurar `LeadIAgenix-core` com documentação inicial.
 2. Definir templates de issues e PRs no `.github/`.
 3. Configurar pipelines CI/CD iniciais para testes e deploy.
 4. Iniciar desenvolvimento do scraper e painel do usuário (MVP).

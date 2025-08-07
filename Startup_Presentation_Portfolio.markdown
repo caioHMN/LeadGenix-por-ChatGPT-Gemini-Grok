@@ -1,9 +1,9 @@
-# LeadGenix: Plataforma Inteligente de Leads B2B
+# LeadIAgenix: Plataforma Inteligente de Leads B2B
 
 ## Portfólio para Apresentação de Startup
 
 **Data:** 05 de Agosto de 2025  
-**Contato:** contato@******.com | [https://*******.com](https://********.com)
+**Contato:** contato@leadiagenix.com | [https://leadiagenix.com](https://leadiagenix.com)
 
 ---
 

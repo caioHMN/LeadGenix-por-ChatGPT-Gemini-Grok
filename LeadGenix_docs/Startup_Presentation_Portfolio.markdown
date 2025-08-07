@@ -1,9 +1,9 @@
-# LeadGenix: Plataforma Inteligente de Leads B2B
+# LeadIAgenix: Plataforma Inteligente de Leads B2B
 
 ## Portfólio para Apresentação de Startup
 
 **Data:** 05 de Agosto de 2025  
-**Contato:** contato@*****.com | [https://*******.com](https://*******.com)
+**Contato:** contato@leadiagenix.com | [https://leadiagenix.com](https://leadiagenix.com)
 
 ---
 
@@ -24,7 +24,7 @@
 ---
 
 ## Visão Geral
-LeadGenix é uma plataforma inovadora que conecta vendedores de produtos e serviços a empresas em expansão, utilizando inteligência de mercado para identificar leads qualificados. Nossa missão é transformar dados públicos em oportunidades de negócios, facilitando a conexão entre fornecedores e empresas com alta demanda.
+LeadIAgenix é uma plataforma inovadora que conecta vendedores de produtos e serviços a empresas em expansão, utilizando inteligência de mercado para identificar leads qualificados. Nossa missão é transformar dados públicos em oportunidades de negócios, facilitando a conexão entre fornecedores e empresas com alta demanda.
 
 ### Proposta de Valor
 - **Inteligência de Mercado:** Identificamos empresas em expansão com base em dados de contratações, cruzando informações para gerar leads de alta qualidade.
@@ -40,7 +40,7 @@ Empresas em expansão frequentemente precisam de novos produtos e serviços (mó
 ---
 
 ## A Solução
-LeadGenix utiliza dados públicos (agências de emprego, portais de CNPJ, fornecedores) para identificar empresas em fase de crescimento e conectá-las a vendedores com produtos e serviços relevantes. Nossa plataforma:
+LeadIAgenix utiliza dados públicos (agências de emprego, portais de CNPJ, fornecedores) para identificar empresas em fase de crescimento e conectá-las a vendedores com produtos e serviços relevantes. Nossa plataforma:
 - Coleta dados de contratações em tempo real.
 - Cruza informações para prever demandas específicas (ex.: empresa contratando analistas de dados = necessidade de software/hardware).
 - Oferece uma interface intuitiva com filtros e notificações para vendedores.
@@ -117,4 +117,4 @@ LeadGenix utiliza dados públicos (agências de emprego, portais de CNPJ, fornec
 ---
 
 ## Conclusão
-LeadGenix está posicionada para revolucionar a geração de leads B2B, oferecendo uma solução escalável, inteligente e acessível. Com um MVP validado em 6 meses e uma estratégia clara de expansão, buscamos parceiros para acelerar nosso crescimento e capturar uma fatia significativa do mercado de inteligência de leads.
+LeadIAgenix está posicionada para revolucionar a geração de leads B2B, oferecendo uma solução escalável, inteligente e acessível. Com um MVP validado em 6 meses e uma estratégia clara de expansão, buscamos parceiros para acelerar nosso crescimento e capturar uma fatia significativa do mercado de inteligência de leads.

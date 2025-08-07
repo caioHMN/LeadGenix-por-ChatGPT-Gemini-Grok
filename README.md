@@ -74,6 +74,3 @@ Desenvolvido com apoio de **ChatGPT**, **Gemini**, **Grok** e **Copilot** — um
 
 Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir melhorias. Toda colaboração é bem-vinda!
 
-
-## Licença
-Este projeto está licenciado sob a [MIT License](LICENSE).

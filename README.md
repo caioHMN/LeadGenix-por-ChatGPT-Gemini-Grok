@@ -73,4 +73,81 @@ Desenvolvido com apoio de **ChatGPT**, **Gemini**, **Grok** e **Copilot** — um
 ## ⭐ Contribua
 
 Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir melhorias. Toda colaboração é bem-vinda!
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# 🚀 Leadiagenix
+
+**AI-Powered B2B Lead Generation Platform**
+
+Leadiagenix is an intelligent solution that connects suppliers to fast-growing companies, using artificial intelligence and public data to identify business opportunities in real time.
+
+---
+
+## 📌 Overview
+
+- 🔍 Detects companies in expansion based on hiring data
+- 🤖 AI algorithms predict specific business demands
+- 📊 Intuitive dashboard with filters and smart alerts
+- 🔗 Integrates with CRMs like Salesforce and HubSpot
+
+---
+
+## 🧠 Tech Stack
+
+- **Backend:** Python, Node.js  
+- **Frontend:** React, Next.js  
+- **Database:** PostgreSQL, MongoDB  
+- **Infrastructure:** Docker, AWS/GCP  
+- **Tools:** Stripe, Grafana, PowerBI
+
+---
+
+## 📈 Roadmap
+
+| Phase        | Key Deliverables                            |
+|--------------|---------------------------------------------|
+| MVP (1–3M)   | Data collection, lead dashboard, free trial |
+| Pilot (4–6M) | Launch in verticals (IT/construction), UX   |
+| Scale (7–12M)| Advanced AI, pricing tiers, CRM integration |
+
+---
+
+## 💼 Monetization Models
+
+- **Free trial**
+- **Tiered subscriptions:** Basic, Pro, Premium
+- **Add-ons:** Market reports, API access
+
+---
+
+## 👥 Team
+
+- **Founder & CEO:** B2B strategy and market intelligence  
+- **CTO:** AI and scalable software expert  
+- **Tech Team:** Developers, data scientists, DevOps
+
+---
+
+## 📬 Contact
+
+📧 contact@leadiagenix.com  
+🌐 [leadiagenix.com](https://leadiagenix.com)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🤝 AI Collaboration
+
+Built with support from **ChatGPT**, **Gemini**, **Grok**, and **Copilot** — a fusion of intelligences accelerating innovation.
+
+---
+
+## ⭐ Contribute
+
+Feel free to open issues, submit pull requests, or suggest improvements. All contributions are welcome!
+
 
